@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+
+p{display: none;color: white;}
+
+.container{ 
+    background-color: rebeccapurple;
+    width: 100dvw;
+    height: 100dvh;
+    container-type: inline-size;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@container (min-inline-size: 1px) and (max-inline-size:99px) {
+    p.wide-0{display: block;font-size: 10px;}
+}
+@container (min-inline-size: 100px) and (max-inline-size: 199px) {
+    p.wide-1 {display: block;}
+}
+@container (min-inline-size: 200px) and (max-inline-size: 299px) {
+    p.wide-2 {display: block;}
+}
+@container (min-inline-size: 300px) and (max-inline-size:399px) {
+    p.wide-3 {display: block;}
+}
+@container (min-inline-size: 400px) and (max-inline-size: 499px) {
+    p.wide-4 {display: block;}
+}
+@container (min-inline-size: 500px) and (max-inline-size: 599px) {
+    p.wide-5 {display: block;}
+}
+@container (min-inline-size: 600px) and (max-inline-size: 699px) {
+    p.wide-6 {display: block;}
+}
+@container (min-inline-size: 700px) and (max-inline-size: 799px) {
+    p.wide-7 {display: block;}
+}
+@container (min-inline-size: 800px) and (max-inline-size: 899px) {
+    p.wide-8 {display: block;}
+}
+@container (min-inline-size: 900px) and (max-inline-size:999px) {
+    p.wide-9 {display: block;}
+}
+@container (min-inline-size: 1000px) and (max-inline-size: 1099px) {
+    p.wide-10 {display: block;}
+}
+@container (min-inline-size: 1100px) and (max-inline-size: 1199px) {
+    p.wide-11{display: block;}
+}
+@container (min-inline-size: 1200px) and (max-inline-size: 1299px) {
+    p.wide-12 {display: block;}
+}
+@container (min-inline-size: 1300px) and (max-inline-size: 1399px) {
+    p.wide-13{display: block;}
+}
+@container (min-inline-size: 1400px) and (max-inline-size: 1499px) {
+    p.wide-14{display: block;}
+}
+@container (min-inline-size: 1500px) and (max-inline-size: 1599px) {
+    p.wide-15{display: block;font-size: 2rem;}
+}
+@container (min-inline-size: 1600px) and (max-inline-size: 1699px) {
+    p.wide-16{display: block;font-size: 2rem;}
+}
+@container (min-inline-size: 1700px) and (max-inline-size: 1799px) {
+    p.wide-17{display: block;font-size: 2rem;}
+}
+@container (min-inline-size: 1800px) and (max-inline-size: 1899px) {
+    p.wide-18{display: block;font-size: 2rem;}
+}
+@container (min-inline-size: 1900px) and (max-inline-size: 1999px) {
+    p.wide-19{display: block;font-size: 2rem;}
+}
+@container (min-inline-size: 2000px) and (max-inline-size: 2099px) {
+    p.wide-20{display: block;font-size: 2rem;}
+}
+@container (min-inline-size: 2100px) {
+    p.wide-af{display: block;font-size: 2rem;word-spacing: 1.5rem;}
+}
